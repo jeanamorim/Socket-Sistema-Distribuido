@@ -45,7 +45,7 @@ public class Cliente_Servidor extends javax.swing.JFrame {
                 while (true) {
                     Socket servidor = ouvir.accept();
                     Scanner ler = new Scanner(servidor.getInputStream());
-                    msg_area.setText(msg_area.getText().trim() + "\n Mensagem: \t" + ler.nextLine());
+                    msg_area.setText(msg_area.getText().trim() + "\n Mensagemm: \t" + ler.nextLine());
                 }
 
             } catch (Exception e) {
